@@ -11,6 +11,9 @@
 		A305FAD629972D38001BA65E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A305FAD529972D38001BA65E /* ContentView.swift */; };
 		A305FAD829972D3A001BA65E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A305FAD729972D3A001BA65E /* Assets.xcassets */; };
 		A305FADB29972D3A001BA65E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A305FADA29972D3A001BA65E /* Preview Assets.xcassets */; };
+		A305FAE229973287001BA65E /* ARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A305FAE129973287001BA65E /* ARView.swift */; };
+		A305FAE929976212001BA65E /* shadow.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A305FAE729976212001BA65E /* shadow.mp4 */; };
+		A305FAEA29976212001BA65E /* lamborghini.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A305FAE829976212001BA65E /* lamborghini.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		A305FAD529972D38001BA65E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A305FAD729972D3A001BA65E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A305FADA29972D3A001BA65E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A305FAE129973287001BA65E /* ARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARView.swift; sourceTree = "<group>"; };
+		A305FAE729976212001BA65E /* shadow.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = shadow.mp4; sourceTree = "<group>"; };
+		A305FAE829976212001BA65E /* lamborghini.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = lamborghini.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				A305FAD329972D38001BA65E /* SwiftUIARApp.swift */,
 				A305FAD529972D38001BA65E /* ContentView.swift */,
+				A305FAE129973287001BA65E /* ARView.swift */,
+				A305FAE829976212001BA65E /* lamborghini.mp4 */,
+				A305FAE729976212001BA65E /* shadow.mp4 */,
 				A305FAD729972D3A001BA65E /* Assets.xcassets */,
 				A305FAD929972D3A001BA65E /* Preview Content */,
 			);
@@ -126,6 +135,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A305FADB29972D3A001BA65E /* Preview Assets.xcassets in Resources */,
+				A305FAE929976212001BA65E /* shadow.mp4 in Resources */,
+				A305FAEA29976212001BA65E /* lamborghini.mp4 in Resources */,
 				A305FAD829972D3A001BA65E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +150,7 @@
 			files = (
 				A305FAD629972D38001BA65E /* ContentView.swift in Sources */,
 				A305FAD429972D38001BA65E /* SwiftUIARApp.swift in Sources */,
+				A305FAE229973287001BA65E /* ARView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,11 +282,13 @@
 				DEVELOPMENT_TEAM = NU35GM8TLX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need to access your iPhone Camera.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,11 +313,13 @@
 				DEVELOPMENT_TEAM = NU35GM8TLX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need to access your iPhone Camera.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
